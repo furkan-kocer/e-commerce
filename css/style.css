@@ -1,0 +1,158 @@
+body{
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.registera {
+  flex-grow: 1;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+
+#sign_in,
+#sign_up,
+#forgot-pass {
+  border-radius:10px;
+  inline-size: 90%;
+  min-inline-size: 23rem;
+  margin-inline: auto;
+}
+
+.registera span {
+  color: orange;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.registera form {
+  display: grid;
+  gap: 0.875rem;
+}
+#field {
+  display: flex;
+}
+
+.registera label,
+.registera input {
+  border-radius: 0.35rem;
+  padding: 1rem;
+  outline: 0;
+}
+
+.registera label {
+  background-color: whitesmoke;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; 
+}
+
+.inside {
+  block-size: 1em;
+  color: orange;
+  inline-size: 1em;
+  vertical-align: middle;
+}
+
+.registera input {
+  border: 0;
+  transition: background-color 0.3s;
+  inline-size: 100%;
+  vertical-align: center;
+}
+
+.registera input::placeholder {
+ 
+  vertical-align: center;
+}
+
+.registera input:not(input[type="submit"]) {
+  background-color: whitesmoke;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.registera input:not(input[type="submit"]):hover,
+.registera input:not(input[type="submit"]):focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.registera input[type="submit"] {
+  cursor: pointer;
+  background-color: orange;
+  color: #eee;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.registera input[type="submit"]:focus,
+.registera input[type="submit"]:hover {
+  background-color: orangered;
+}
+
+.registera p {
+  margin-block: 1.5rem;
+  text-align: center;
+}
+button {
+  background: transparent;
+  border: none;
+}
+
+.register-inside {
+  cursor: pointer;
+  color: black;
+ font-weight: 600;
+  outline: 0;
+  text-decoration: none;
+  padding: 0 0.3rem;
+}
+.register-inside:hover{
+  text-decoration: underline;
+}
+.forgot-div{
+  text-align:right;
+}
+.forgot-div a{
+  color: black;
+}
+
+.forgot-div a:hover{
+  color:orange;
+}
+.succ{
+  color: green;
+  line-height:1px;
+  padding: 5px 9px 4px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 3px;
+  background-color: lightgreen;
+}
+.succ label{
+  background-color: transparent;
+  border-bottom-right-radius: default;
+  border-top-right-radius:default; 
+}
+.message-box{
+  color: #d0021b;
+  line-height:1px;
+  padding: 5px 9px 4px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 3px;
+  background-color: #fff4f6;
+}
+.message-box label{
+  background-color: transparent;
+  border-bottom-right-radius: default;
+  border-top-right-radius:default; 
+}

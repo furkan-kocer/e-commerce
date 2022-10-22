@@ -1,0 +1,193 @@
+.wrapper{
+    font-family:"Roboto" , sans-serif;
+    display: grid;
+    margin:0 7% 0 385px;
+}
+.header-text{
+    text-transform: uppercase;
+    border-radius: 4px;
+   inline-size:50%;
+   margin:5% 0px 25px 0px;
+   padding:15px 0 15px 0;
+   font-weight: bold;
+   font-size:24px;
+   box-shadow: whitesmoke 0px 2px 0px;
+}
+.button-try{
+    background:#1E90FF;
+    font-weight: bold;
+    color:white;
+    padding:20px 5px 20px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border:1px solid whitesmoke;
+    border-radius:8px;
+    font-size:12px;
+    transition: all 0.5s ease;
+    inline-size: 9%;
+}
+.button-try2{
+    padding:20px 15px;
+   width: 100%;
+}
+.change-color-btn{
+    background:rgb(214, 6, 6);
+}
+
+.button-try:hover,.button-try:focus, .button-try:active{
+    background:rgb(34, 33, 33);
+    color:orange;
+}
+
+.table1{
+    margin:25px 0;
+    font-size:0.7em;
+    border-collapse: collapse;
+    min-width: 400px;
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+.table1 thead tr{
+    background:#1E90FF;
+    color:black;
+    text-align:center;
+    font-size:12px;
+}
+.pagination{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.pagination a{
+    margin-right: 10px;
+    text-decoration:none;
+    color:black;
+    font-size: 12px;
+    padding:10px 15px 10px 15px;
+    background:whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    border-radius:8px;
+    transition: all 0.5s ease;
+}
+.pagination a:hover,.pagination a:focus, .pagination a:active{
+    background:rgb(34, 33, 33);
+    color:orange;
+}
+.table1 tfoot tr{
+    background:#1E90FF;
+    color:black;
+    text-align:center;
+    font-size:12px;
+}
+.table1 tfoot tr td{
+    padding:12px 15px;
+}
+
+.table1 th{
+    padding:12px 15px;
+}
+
+.table1 tbody tr{
+    border-bottom:1px solid #dddddd;
+    text-align: center;
+}
+.table1 tbody tr td{
+        padding:5px 0px;    
+}
+
+.table1 tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.table1 tbody tr:last-of-type{
+    border-bottom:2px solid #1E90FF;
+}
+
+.button-row{
+    margin-top:15px;
+    margin-right:5px;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    gap:0.875rem;
+}
+
+.img-show{
+    object-fit:cover;
+    width:100px;
+    height:150px;
+    border-radius: 8px;
+}
+
+.pop-up{
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,0.3);
+    position:absolute;
+    top: 0;
+    display:none;
+    justify-content: center;
+    align-items:start;
+}
+.pop-up-content{
+    margin-top:25px;
+    padding:20px;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pop-up-content form{
+    display: grid;
+    gap:1.4rem;
+}
+
+#field {
+    display: flex;
+  }
+
+  #field label,
+  #field input {
+  border-radius: 0.35rem;
+  padding: 1rem;
+  outline: 0;
+}
+
+#field input{
+    border: 0;
+    transition: background-color 0.3s;
+    inline-size: 100%;
+    vertical-align: center;
+}
+#field input::placeholder{
+    vertical-align: center;
+}
+
+#field input:not(input[type="submit"]) {
+    background-color: whitesmoke;
+    
+  }
+  
+  #field input:not(input[type="submit"]):hover,
+  #field input:not(input[type="submit"]):focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  #field input[type="submit"] {
+    cursor: pointer;
+    background-color: orange;
+    color: #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  
+  #field input[type="submit"]:focus,
+  #field input[type="submit"]:hover {
+    background-color: orangered;
+  }

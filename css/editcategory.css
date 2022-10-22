@@ -1,0 +1,11 @@
+.product-content{
+    width: 400px;
+   min-height: 300px;
+}
+.change{
+    justify-content: center;
+    align-items: center;
+}
+.change a{
+    margin-right: 10px;
+}

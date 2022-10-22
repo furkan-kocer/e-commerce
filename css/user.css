@@ -1,0 +1,188 @@
+
+.user-wrapper{
+  margin:200px 285px;
+  height:100%;
+}
+
+.user-table-button{
+    display: grid;
+    margin-left:25px;
+    justify-content:start; 
+   
+}
+.user-table{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:15px;
+    border: 4px solid red;
+}
+.user-table .table{
+    width:85%;
+    text-align:center;
+    border-bottom: 1px solid black;
+}
+.user-table-button .buton-try{
+    background:#1E90FF;
+    font-weight: bold;
+    color:white;
+    padding:20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border:1px solid whitesmoke;
+    border-radius:8px;
+    font-size:12px;
+    transition: all 0.5s ease;
+    cursor:pointer;
+}
+.buton-try:hover,.buton-try:focus, .buton-try:active{
+    background:rgb(34, 33, 33);
+    color:orange;
+}
+.pop-up{
+    width:100%;
+    height:145%;
+    background-color:rgba(0,0,0,0.3);
+    position:absolute;
+   top: 0;
+    display:none;
+    justify-content: center;
+    align-items:start;
+   z-index: 12;
+}
+.pop-up-content{
+    margin-top:25px;
+    padding:20px;
+    width: 500px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pop-up-content form{
+    display: grid;
+    gap:1.4rem;
+}
+
+#field {
+    display: flex;
+  }
+
+  #field label,
+  #field input {
+  border-radius: 0.35rem;
+  padding: 1rem;
+  outline: 0;
+}
+
+#field input{
+    border: 0;
+    transition: background-color 0.3s;
+    inline-size: 100%;
+    vertical-align: center;
+}
+#field input::placeholder{
+    vertical-align: center;
+}
+
+#field input:not(input[type="submit"]) {
+    background-color: whitesmoke;
+    
+  }
+  
+  #field input:not(input[type="submit"]):hover,
+  #field input:not(input[type="submit"]):focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  #field input[type="submit"] {
+    cursor: pointer;
+    background-color: orange;
+    color: #eee;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+  
+  #field input[type="submit"]:focus,
+  #field input[type="submit"]:hover {
+    background-color: orangered;
+  }
+  .buton-try2{ 
+    background:orange;
+    font-weight: bold;
+    inline-size: 100%;
+    color:white;
+    padding:15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border:1px solid whitesmoke;
+    border-radius:5px;
+    font-size:14px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+  .buton-try2:hover,.buton-try2:focus, .buton-try2:active{
+    background:orangered;
+}
+.pointer{
+  cursor: pointer;
+}
+.button-color-for-admin{
+  background:rgb(34, 33, 33);
+  color:orange;
+}
+.button-color-for-admin:hover{
+  background:rgb(30, 144, 255);
+  color:white;
+}
+/*    After changes user.php        */
+
+.changefield{
+  display:grid;
+
+}
+.changefield span{
+text-align: start;
+}
+
+
+.changefield input {
+border-radius: 0.35rem;
+padding: 1rem;
+outline: 0;
+}
+
+.changefield input{
+  border: 0;
+  transition: background-color 0.3s;
+  inline-size: 100%;
+  vertical-align: center;
+}
+.changefield input::placeholder{
+  vertical-align: center;
+}
+
+.changefield input:not(input[type="submit"]) {
+  background-color: whitesmoke;
+}
+
+.changefield input:not(input[type="submit"]):hover,
+.changefield input:not(input[type="submit"]):focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.changefield input[type="submit"] {
+  cursor: pointer;
+  background-color: orange;
+  color: #eee;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.changefield input[type="submit"]:focus,
+.changefield input[type="submit"]:hover {
+  background-color: orangered;
+}
